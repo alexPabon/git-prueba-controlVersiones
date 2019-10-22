@@ -1,5 +1,7 @@
 body{
     background: rgba(196, 161, 97, 0.582);
+    padding: 0;
+    margin: 0;
 }
 
 h1{
