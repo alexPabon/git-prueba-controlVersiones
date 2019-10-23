@@ -19,8 +19,8 @@ h1{
 }
 
 div.marcoExt{
-    border:solid 3px lightsteelblue;
-    background-color: rgb(197, 255, 255);
+    border:solid 3px rgb(147, 175, 211);
+    background-color: #08d6d6;
     border-radius: 5px;
     margin: 0 auto;
     padding: 15px;
@@ -33,7 +33,7 @@ div.marcoInt{
     padding: 10px;
     border:solid 2px white;
     border-radius:7px;
-    background-color: mediumslateblue;      
+    background-color: #3a69ec;      
     display: inline-flex;    
     justify-content: space-evenly; 
     flex-wrap: wrap;
@@ -47,11 +47,25 @@ div.firguras{
     border-radius:10px;
     padding: 10px;
     background-color:rgba(228, 226, 241, 0.26);
-    margin: 8px;    
+    margin: 8px; 
+    position: relative;
+    z-index: 1;   
 }
 
 p{
     text-align: center;
     font-weight: bold;
     transform:translateY(50%);
+}
+
+div.circulo{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(5, 245, 37);
+    border: solid 3px white;
+    border-radius: 50%;
+    position: absolute;
+    left: -20px;
+    top:25px;
+    cursor: pointer;
 }
