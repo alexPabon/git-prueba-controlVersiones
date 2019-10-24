@@ -79,3 +79,17 @@ p.txtCirculo{
     font-weight: bold;
     transform:translateY(0%);
 }
+
+div.segundaCaja{
+	border:solid 4px white;
+	border-radius:10px;
+	margin-top:15px;
+	background-color:#0a6515;
+	color:white;
+	text-align:center;	
+}
+
+div.segundaCaja:hover{
+	background-color: #e0ef03;
+	color:black;	
+}
