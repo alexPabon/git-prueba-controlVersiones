@@ -52,7 +52,7 @@ div.firguras{
     z-index: 1;   
 }
 
-p{
+p.contenido{
     text-align: center;
     font-weight: bold;
     transform:translateY(50%);
@@ -61,11 +61,21 @@ p{
 div.circulo{
     width: 40px;
     height: 40px;
-    background-color: rgb(5, 245, 37);
+    background-color: rgb(2, 131, 19);
     border: solid 3px white;
     border-radius: 50%;
     position: absolute;
     left: -20px;
     top:25px;
     cursor: pointer;
+    text-align: center;    
+}
+
+p.txtCirculo{
+    margin:0;
+    padding: 0;
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    transform:translateY(0%);
 }
