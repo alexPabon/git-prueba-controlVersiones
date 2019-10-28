@@ -20,7 +20,7 @@ h1{
 
 div.marcoExt{
     border:solid 3px rgb(147, 175, 211);
-    background-color: #08d6d6;
+    background-color: #cbf8f1;
     border-radius: 5px;
     margin: 0 auto;
     padding: 15px;
@@ -33,11 +33,14 @@ div.marcoInt{
     padding: 10px;
     border:solid 2px white;
     border-radius:7px;
-    background-color: #3a69ec;      
     display: inline-flex;    
     justify-content: space-evenly; 
     flex-wrap: wrap;
-    width:100%;    
+    width:100%;
+    background-image:url(imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 div.firguras{
@@ -61,14 +64,17 @@ p.contenido{
 div.circulo{
     width: 40px;
     height: 40px;
-    background-color: rgb(2, 131, 19);
     border: solid 3px white;
     border-radius: 50%;
     position: absolute;
     left: -20px;
     top:25px;
     cursor: pointer;
-    text-align: center;    
+    text-align: center;
+    background-image:url(imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
 }
 
 p.txtCirculo{
@@ -84,12 +90,18 @@ div.segundaCaja{
 	border:solid 4px white;
 	border-radius:10px;
 	margin-top:15px;
-	background-color:#0a6515;
+	/*background-color:#0a6515;*/
 	color:white;
-	text-align:center;	
+	text-align:center;
+    background-image:url(imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 div.segundaCaja:hover{
-	background-color: #e0ef03;
-	color:black;	
+	background-color: orange;
+    border:solid 4px black;
+	color:black;
+    background-image: none;
 }
